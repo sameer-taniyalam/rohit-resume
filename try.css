@@ -1,0 +1,82 @@
+
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.education-content{
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.skills-list {
+    margin-top: 90px;
+    margin-left: 40%;
+    width: 75%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.education-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.year {
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.details {
+    flex: 1;
+}
+
+.details h3,
+.details h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.details h3 {
+    font-size: 1.2em;
+}
+
+.details h4 {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.skills-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
